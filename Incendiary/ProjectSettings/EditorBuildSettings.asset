@@ -11,3 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 1d42199229d9e9f4a896eaa10071be48
+  - enabled: 1
+    path: Assets/Scenes/LoseCondition.unity
+    guid: bf578372ec0c9e94384563799a59b0c0
+  - enabled: 1
+    path: Assets/Scenes/EndLevel.unity
+    guid: d94f0e62f5c59e740a2d0b93e5b9b423
+  - enabled: 1
+    path: Assets/Scenes/Caught.unity
+    guid: 1d8070a3f179459498998b35b846066a
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 7c72358d5d51e0b4d8829fc332a5f6bb

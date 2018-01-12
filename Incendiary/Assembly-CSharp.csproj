@@ -51,6 +51,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Detonator Explosion Framework\Sample Supporting Emitters\DetonatorSprayHelper.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\Detonator.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorComponent.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSpray.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\DetonatorTest.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\TouchToMouse.cs" />
      <Compile Include="Assets\Particles\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\Particles\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
      <Compile Include="Assets\Particles\EffectExamples\Shared\Scripts\GunAim.cs" />
@@ -61,11 +78,20 @@
      <Compile Include="Assets\Particles\Particle Dissolve Shader by Moonflower Carnivore\Scripts\HUDFPS.cs" />
      <Compile Include="Assets\Particles\Particle Dissolve Shader by Moonflower Carnivore\Scripts\PDS_GameController.cs" />
      <Compile Include="Assets\Particles\Particle Dissolve Shader by Moonflower Carnivore\Scripts\ScrollingUVs_PDS.cs" />
+     <Compile Include="Assets\Scripts\ChangeDetectorLight.cs" />
+     <Compile Include="Assets\Scripts\ChangeSprinklerLight.cs" />
+     <Compile Include="Assets\Scripts\CursorFix.cs" />
+     <Compile Include="Assets\Scripts\Disable.cs" />
+     <Compile Include="Assets\Scripts\EndLevel.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\EnemyVision.cs" />
+     <Compile Include="Assets\Scripts\FireSpawnTimer.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\LastPlayerSighting.cs" />
      <Compile Include="Assets\Scripts\ObjectIgnite.cs" />
+     <Compile Include="Assets\Scripts\PickUpItem.cs" />
      <Compile Include="Assets\Scripts\PlayButtonScript.cs" />
+     <Compile Include="Assets\Scripts\QuitButtonScript.cs" />
      <Compile Include="Assets\Scripts\QuitGameScript.cs" />
      <Compile Include="Assets\Scripts\SetFire.cs" />
      <Compile Include="Assets\Scripts\WanderScript.cs" />
@@ -115,6 +141,7 @@
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Particles\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha_stretch.shader" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
      <None Include="Assets\Particles\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Particles\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add.shader" />

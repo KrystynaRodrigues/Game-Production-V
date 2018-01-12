@@ -17,6 +17,7 @@ public class ObjectIgnite : MonoBehaviour
 
     void Ignite()
     {
+        
         GameObject spawnFire = Instantiate(fire, transform.position, transform.rotation) as GameObject; //spawns fire prefab
         spawnFire.GetComponent<Rigidbody>().velocity = transform.forward * 10;
     }

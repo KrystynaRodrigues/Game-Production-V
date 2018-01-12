@@ -6,33 +6,51 @@ public class SetFire : MonoBehaviour {
 
 
     public GameObject fire;
-    float startFire = 2.0f;
-	// Use this for initialization
-	void Start ()
+    public float startFire;
+    public int timer;
+    public Transform target;
+
+    public bool isFireSet;
+
+    void Start()
     {
-		
-	}
-	
-	// Update is called once per frame
+        isFireSet = false;
+    }
+
 	void Update ()
     {
-        startFire -= Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.F)) //start fire when f is pushed
+        startFire += Time.deltaTime;
+
+	}
+
+
+    void OnTriggerStay(Collider other)
+    {
+        
+        if (other.gameObject.tag == "Flammable")
         {
-            if(startFire <= 0f)
+            if(Input.GetKeyDown(KeyCode.Mouse0))
             {
                 setFire();
             }
-            
+                
             
         }
-        
-	}
+    }
 
     void setFire()
     {
-            GameObject spawnFire = Instantiate(fire, transform.position, transform.rotation) as GameObject; //spawns fire prefab
+        if (startFire > timer)
+        {
+            GameObject spawnFire = Instantiate(fire, target.position, target.rotation) as GameObject; //spawns fire prefab
             spawnFire.GetComponent<Rigidbody>().velocity = transform.forward * 10;
+            timer = timer + 25;
+
+        }
+        
+        startFire = startFire + 10;
+        isFireSet = true;
+
     }
 }   

@@ -8,6 +8,10 @@ TagManager:
   - Level
   - Waypoint
   - Flammable
+  - Detector
+  - Sprinkler
+  - DetectorLight
+  - QuestItem
   layers:
   - Default
   - TransparentFX

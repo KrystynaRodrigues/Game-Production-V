@@ -10,7 +10,9 @@ public class PlayButtonScript : MonoBehaviour
 
 	public void LoadScene(string LevelName)
     {
-        SceneManager.LoadScene(LevelName);
+       
+            SceneManager.LoadScene(LevelName);
+        
     }
 	
 }
